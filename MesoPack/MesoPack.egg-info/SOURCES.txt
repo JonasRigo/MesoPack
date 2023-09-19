@@ -1,0 +1,6 @@
+setup.py
+MesoPack/MesoPack.py
+MesoPack.egg-info/PKG-INFO
+MesoPack.egg-info/SOURCES.txt
+MesoPack.egg-info/dependency_links.txt
+MesoPack.egg-info/top_level.txt

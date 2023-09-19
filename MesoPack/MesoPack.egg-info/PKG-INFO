@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: MesoPack
+Version: 0.3.0
+Summary: a simple library to carry out calculations for mesoscopic quantum systems
+Author: Jonas Rigo
+Author-email: rigojonas@gmail.com
+License: Apache License 2.0
+Classifier: Development Status :: 1 - Developement
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
