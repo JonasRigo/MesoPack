@@ -1486,11 +1486,11 @@ class Operators(object):
                 # end for r
                 # adding the QN subspace Hamiltonain if the QN combination exists
                 if addham_qsz:
-                    Obs[qnind] = sparse.csr_matrix(Obs_qsz)
+                    H[qnind] = sparse.csr_matrix(H_qsz)
                     addham_qsz = False
             # end for sz
         # end for q
-        Operator = OperatorBase(self.H, Obs, [0,-1]) 
+        Operator = OperatorBase(self.H, H, [0,-1]) 
         return Operator
     
     def Parity(self,par_dict,print_index=False):
